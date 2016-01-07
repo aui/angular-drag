@@ -1,0 +1,28 @@
+{
+  "name": "angular-drag",
+  "version": "0.0.1-beta",
+  "readmeFilename": "README.md",
+  "description": "基于 AngularJS 的拖拽指令",
+  "homepage": "https://github.com/aui/angular-drag",
+  "keywords": [
+    "angular",
+    "drag"
+  ],
+  "author": "aui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aui/angular-drag.git"
+  },
+  "main": "./dist/angular-drag.js",
+  "scripts": {
+    "min": "webpack -p"
+  },
+  "devDependencies": {
+    "jquery": "^2.1.4",
+    "angular": "^1.4.8",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "webpack": "^1.12.9"
+  },
+  "license": "MIT"
+}
